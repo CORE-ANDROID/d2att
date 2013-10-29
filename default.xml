@@ -47,10 +47,12 @@
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   
    <!--Device trees for supported devices-->
-  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="cm" revision="cm-10.2" />
-  <project path="device/htc/m7-common" name="platform_device_htc_m7-common" remote="dt" revision="master" />
-  <project path="device/htc/m7tmo" name="platform_device_htc_m7tmo" remote="dt" revision="master" />
-  <project path="device/htc/msm8960-common" name="platform_device_htc_msm8960-common" remote="dt" revision="master" />
+  <project path="device/samsung/d2-common" name="android_device_samsung_d2-common" remote="dt" revision="jb43" />
+  <project path="device/samsung/d2att" name="android_device_samsung_d2att" remote="dt" revision="jb43" />
+  <project path="kernel/samsung/d2" name="android_kernel_samsung_d2" remote="dt" revision="jb43" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="dt" revision="jb43" />
+  <project path="device/samsung/msm8960-common" name="android_device_samsung_msm8960-common" remote="dt" revision="jb43" />
+  
   
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -393,6 +395,7 @@
   <project path="packages/apps/KernelControls" name="CORE-ANDROID/KernelControls" remote="ca" revision="jb-devel" />
   
  <!--Device Specific Vendors-->
+  <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="dt" revision="master" />
   <project path="vendor/htc" name="vendor_htc" remote="dt" revision="master" />
   <project path="vendor/qcom/opensource/v8" name="android_vendor_qcom_opensource_v8" remote="dt" revision="master" />
   <project path="vendor/insomnia" name="CORE-ANDROID/vendor_insomnia" remote="ca" revision="jb43" />
